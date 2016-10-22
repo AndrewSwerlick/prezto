@@ -33,12 +33,13 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt' \
   'git' \
   'osx' \
   'ruby' \
   'tmux' \
-  'homebrew'
+  'homebrew' \
+  'syntax-highlighting' \
+  'prompt'
 
 #
 # Autosuggestions
@@ -149,7 +150,7 @@ zstyle ':prezto:module:ruby:chruby' auto-switch 'yes'
 #
 
 # Auto set the tab and window titles.
-# zstyle ':prezto:module:terminal' auto-title 'yes'
+zstyle ':prezto:module:terminal' auto-title 'yes'
 
 # Set the window title format.
 # zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
